@@ -1,0 +1,125 @@
+
+
+/* 
+.spiner {
+    width: 150px;
+    height: 150px;
+
+    overflow: hidden;
+    position: relative;
+}
+
+
+.spiner-sector {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 15px solid transparent;
+    border-radius: 50%;
+    box-sizing: border-box;
+    mix-blend-mode: overlay;
+    animation: rotate var(--duration) infinite linear;
+
+}
+
+.spiner-black {
+    border-bottom: 15px solid rgba(150, 2, 4, 0.7);
+    --duration: 3.5s;
+}
+
+.spiner-red {
+    border-bottom: 15px solid rgb(15, 149, 167);
+    --duration: 4s;
+}
+
+@keyframes rotate {
+
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+    
+} */
+
+
+/* .test {
+    background-color: blue;
+    height: 50px;
+    width: 200px;
+    transition: all 1s;
+   
+}
+
+.test:hover {
+   transform: scale(0.7);
+} */
+
+
+/* .bg {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://img.freepik.com/free-photo/digital-art-beautiful-mountains_23-2151123686.jpg');
+    display: grid;
+    place-items: center;
+}
+
+
+.glass-effect {
+    backdrop-filter: blur(10px);
+    background-image: linear-gradient(90deg, rgba(213, 235, 23, 0.4), rgba(238, 36, 36, 0.1));
+    height: 150px;
+    width: 350px;
+    border-radius: 16px;
+    color: white;
+    font-size: 32px;
+
+    display: grid;
+    place-items: center;
+
+} */
+
+
+/* .media-test {
+    background-color: red;
+    color: white;   
+    display: flex;
+}
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+    .media-test {
+        background-color: black;
+        flex-direction: column;
+    }
+    
+} */
+
+p {
+    font-size: 3rem;
+}
+
+
+
+@media screen and (max-width: 999px) {
+    p {
+        font-size: 2rem;
+        color: blue;
+    }
+    
+}
+
+@media screen and (max-width: 749px) {
+    p {
+        font-size: 1.5rem;
+        color: red;
+    }
+    
+}
+
+
+
+
+
